@@ -47,7 +47,7 @@ class SanitizeServiceProvider extends ServiceProvider
     {
         return [
             Sanitizer::class,
-            Registrar::class,
+            Contracts\Registrar::class,
         ];
     }
 }
